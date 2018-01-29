@@ -461,6 +461,7 @@
 
     //六、点击切换显示小购物车列表
     $('#asider .shiftbtn').on('click',function(){
+        $('#asider .shopcart').toggleClass('onclick');
         $('#asider .contentlist').fadeToggle();
     });     
 });

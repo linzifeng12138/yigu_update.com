@@ -198,6 +198,7 @@ document.addEventListener('DOMContentLoaded',function(){
 
         //五、点击切换显示小购物车列表
         $('#asider .shiftbtn').on('click',function(){
+            $('#asider .shopcart').toggleClass('onclick');
             $('#asider .contentlist').fadeToggle();
         });
         //六、首页吸顶，附带延时效果

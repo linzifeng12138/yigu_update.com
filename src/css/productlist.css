@@ -23,3 +23,5 @@
 #mainlist #page .pagenum span.active{background-color:#fc0;color:#fff;}
 
 .clone-img{position:absolute;z-index:44;}
+
+.onclick{background: rgb(253,116,0);}
