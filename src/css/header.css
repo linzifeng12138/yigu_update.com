@@ -1,0 +1,107 @@
+/*开头部分代码：*/
+/*一、顶部登录栏*/
+#login{position:relative;width:100%;height:30px;background: rgb(247,247,247);}
+#login .boxleft{float:left;width:195px;height:30px;font-size:12px;
+line-height:30px;text-align:center;}
+#login .boxleft h2{float:left;width:95px;height:30px;color:#ccc;}
+#login .boxleft a{float:left;display:inline-block;width:100px;height:30px;}
+#login .boxright{float:right;font-size:12px;line-height:30px;
+margin-right:8px;}
+#login .boxright li{float:left;}
+#login .boxright li a{padding-left:28px;padding-right:15px;
+    border-right:1px solid black;}
+#login .boxright li:nth-child(4) a{border-right:none;}
+
+/*二、最右端黑色功能区*/
+#asider{position:fixed;right:0px;top:0px;z-index:5;height:700px;
+overflow:hidden;}
+
+#asider .functionlist{float:right;width:40px;height:700px;
+    background:black;padding-top:250px;}
+#asider .functionlist .shopcart{width:40px;height:140px;font-size:13px;text-align:center;padding-top:33px;border-top:1px solid white;border-bottom:1px solid white;}
+#asider .functionlist .shopcart:hover{background: rgb(253,116,0);}
+#asider .functionlist .shopcart .shiftbtn{padding-left:10px;padding-right:10px;color:white;cursor:pointer;}
+#asider .functionlist .shopcart .goodsqty{
+    display:block;width:25px;height:25px;border-radius:50%;
+    text-align:center;line-height:25px;color:white;
+    background: rgb(253,116,0);
+    margin-left:8px;margin-top:6px;}
+
+#asider .contentlist{float:left;width:270px;height:700px;
+    background:rgba(15,10,50,0.8);display:none;}
+#asider .contentlist h3{margin-left:5px;margin-right:5px;width:260px;height:40px;border-bottom:2px solid white;color:white;line-height:40px;text-align:center;font-size:13px;}
+
+#asider .contentlist ul{overflow:auto;min-height:130px;width:270px;height:550px;margin-top:6px;}
+#asider .contentlist ul li{width:250px;height:115px;margin-bottom:5px;background:#ccc;padding-top:10px;padding-left:10px;margin-left:5px;}
+#asider .contentlist ul li img{float:left;width:85px;height:85px;}
+#asider .contentlist ul li .title{float:left;width:130px;height:40px;line-height:18px;padding-left:13px;font-size:12px;}
+#asider .contentlist ul li .shopprice{float:left;width:150px;height:40px;line-height:40px;font-size:12px;padding-left:12px;}
+
+#asider .contentlist .shopcount{padding-left:10px;width:250px;height:40px;line-height:40px;font-size:12px;color:white;margin-top:5px;}
+#asider .contentlist .shopcount .heji{font-size:18px;font-weight:bold;color:orange;margin-left:33px;}
+
+#asider .contentlist .checkout{display:block;margin:5px;width:260px;height:35px;background: orange;line-height:35px;text-align:center;color:white;font-weight:bold;}
+
+
+
+/*三、商品搜索导航栏*/
+/*原来菜单栏样式*/
+.nav{position:relative;width:100%;height:90px;
+    background: rgb(224,224,224);}
+/*吸顶菜单栏样式，注意旧的样式和新的样式要么同为类名，要么同为id名，否则无法切换--原因是权重*/
+.nav_top{position:fixed;top:0;z-index:233; 
+    background: rgba(51, 51, 51, 0.8);}
+
+#nav h1{width:280px;height:80px;background: url("../img/logoopcity.png") no-repeat;margin-top:10px;}
+#nav .searchbox{width: 586px;height: 90px;padding-left:21px;padding-top:23px;}
+#nav .searchbox input{display:inline-block;width: 490px;height:34px;
+    border:1px solid orange;padding-left:7px;float:left;}
+#nav .searchbox  #navbtn{display: inline-block;width:70px;height:34px;
+    background: rgb(248,117,9);text-align:center;line-height:34px;float:left;
+    color:white;font-weight:bold;cursor: pointer;}
+#nav .paycar{position:relative;width: 206px;height: 42px;
+    border: 1px solid orange;
+    background: white;margin-top:18px;margin-right:20px;}
+#nav .paycar .pay{font-size:14px;color:rgb(248,117,9);
+    padding-left:95px;line-height:42px;}
+#nav .paycar .car{position:absolute;left:10px;top:0px;
+    display: block;width: 43px;height:38px;
+    background: url("../img/car.jpg") no-repeat center;}
+#nav .paycar #goodsnumber{
+    position:absolute;left:18px;top:2px;
+    display: inline-block;width: 25px;height:24px;
+    border-radius:50%;background: rgb(248,117,9);
+    line-height: 24px;text-align:center; color:white;
+    font-weight: bold;}
+
+/*三级导航代码开始：*/
+#showlist .tabmain{position:absolute;left:0px;top:40px;
+background: white;padding-top:10px;height:350px;}
+#showlist .tabmain li{
+    margin-bottom:2px;margin-top:2px;font-size:12px;
+    position:relative;z-index:30;
+    width:150px;height:50px;background: white;
+    line-height:50px;text-align:center;}
+#showlist .tabmain>li:hover{
+    width:150px;
+    position:relative;z-index:30;
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    border-left:1px solid #ccc;}
+#showlist .tabmain>li:hover a{display:block;
+width:155px;height:48px;background: white;font-weight:bold;}
+#showlist .tabmain>li:hover .tablist{
+    width:800px;height:220px;
+    position:absolute;top:-45px;left:149px; z-index:-4;
+    border:1px solid #ccc;
+    background: white;}
+/*给每个小标题添加图标（精灵图定位）*/
+#showlist .tabmain>li i{display:block;width:33px;height:40px;
+    background: url("../img/smalllogo.fw.png") -4px 0px;
+    position:absolute;left:5px;top:10px; }
+#showlist .tabmain>li:nth-child(2) i{background: url("../img/smalllogo.fw.png") -71px 5px;}
+#showlist .tabmain>li:nth-child(3) i{background: url("../img/smalllogo.fw.png") -155px -2px;}
+#showlist .tabmain>li:nth-child(4) i{background: url("../img/smalllogo.fw.png") -220px 2px;}
+#showlist .tabmain>li:nth-child(5) i{background: url("../img/smalllogo.fw.png") -294px 2px;}
+#showlist .tabmain>li:nth-child(6) i{background: url("../img/smalllogo.fw.png") -354px 2px;}
+#showlist .tabmain>li:nth-child(7) i{background: url("../img/smalllogo.fw.png") -414px 2px;}

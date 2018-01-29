@@ -1,0 +1,64 @@
+#cararea{width:100%;}
+
+#cararea .cartitle{width:100%;height:49px;background: white;border-bottom:1px solid #ccc;}
+#cararea .cartitle input{margin-left:9px;}
+#cararea .cartitle  span{display:inline-block;width:50px;height:49px;text-align:center;line-height:49px;font-size:13px;}
+#cararea .cartitle ul{width:625px;height:49px;}
+#cararea .cartitle ul li{float:left;width:125px;height:49px;line-height:49px;text-align:center;font-size:12px;}
+
+
+#cararea .maincar{width:100%;min-height:106px;}
+#cararea .maincar .carlist{width:100%;height:105px;padding-left:8px;
+    border-bottom:1px solid #ccc;background: white;}
+#cararea .maincar .carlist:nth-child(2n+1){background:#efefef;}
+#cararea .maincar .carlist:hover{background:rgb(253,243,235);}
+#cararea .maincar .carlist img{width:84px;height:84px;
+    border:1px solid #ccc;margin-top:10px;margin-left:58px;}
+#cararea .maincar .carlist .title{display:inline-block;width:320px;font-size:12px;margin-left:20px;}
+
+#cararea .maincar .carlist .box-right{float:right;width:625px;height:105px;}
+
+#cararea .maincar .carlist .box-right .ourprice{width:125px;height:105px;float:left;font-size:12px;text-align:center;line-height:105px;}
+
+#cararea .maincar .carlist .box-right .amount0{float:left;font-size:12px;}
+#cararea .maincar .carlist .box-right .amount0 span{
+    display:block;border:1px solid #ccc;text-align:center;
+    font-size:25px;line-height:20px; margin-top:40px;}
+#cararea .maincar .carlist .box-right .amount0 .minus{
+    width:35px;height:25px;float:left;cursor:pointer;}
+#cararea .maincar .carlist .box-right .amount0 .plus{
+    width:35px;height:25px;float:left;cursor:pointer;}
+#cararea .maincar .carlist .box-right .amount0 .amount{
+    width:55px;height:25px;line-height:25px;float:left;font-size:14px;}
+#cararea .maincar .carlist .box-right .count{
+    float:left;width:120px;height:105px;text-align:center;line-height:105px;font-size:12px;
+}
+#cararea .maincar .carlist .box-right .weight{
+float:left;width:140px;height:105px;text-align:center;line-height:105px;font-size:12px;}
+
+
+#cararea .maincar .carlist .box-right .control{padding-top:30px;float:right;text-align:center;font-size:13px;}    
+#cararea .maincar .carlist .box-right .control span{display:block;width:110px;height:20px;line-height:20px;cursor:pointer;}
+#cararea .maincar .carlist .box-right .control .btn-close:hover{color:red;}
+
+#caroutcome .container{background: rgb(253,243,235);}
+#caroutcome .leftbox{display:block;float:left;width:911px;height:75px;}
+#caroutcome .leftbox img{width:355px;height:33px;margin-left:280px;margin-top:20px;}
+#caroutcome h3{width:144px;height:75px;float:left;font-size:12px;
+    text-align:center;}
+#caroutcome h3 .p0{line-height:40px;font-weight:bold;}
+
+
+
+#payfor{width:100%;height:70px;font-size:14px;}
+#payfor input{height:70px;margin-left:10px;}
+#payfor .checkall{margin-left:10px;}
+#payfor .back{margin-left:10px;}
+
+#payfor .boxright{float:right;width:305px;height:70px;}
+#payfor .boxright .totaltitle{display:block;width:82px;height:70px;float:left;text-align:center;line-height:70px;}
+#payfor .boxright .totalprice{display:block;width:118px;height:70px;float:left;text-align:center;padding-top:9px;}
+#payfor .boxright .totalprice .act{display:block;width:118px;font-size:20px;font-weight:bold;}
+#payfor .boxright .totalprice .save{display:block;width:118px;font-size:13px;line-height:24px;}
+#payfor .boxright .checkout{float:left;display:block;width:104px;font-size:24px;height:70px;background: rgb(253,116,0);color:white;line-height:70px;text-align:center;border-radius:5px;font-weight:bold;}
+#payfor .container{background: rgb(240,240,240);}

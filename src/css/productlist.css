@@ -1,0 +1,25 @@
+#orderlist{width:100%;height:42px;margin-top:14px;margin-bottom:20px;
+    font-size:13px;line-height:42px;}
+#orderlist .goodssearch{width:253px;height:27px;border:1px solid #ccc;vertical-align:middle;margin-left:23px;}
+#orderlist .searchbox{display:inline-block;width:45px;height:26px;color:white;background: orange;border-radius:6px;text-align:center;line-height:26px;margin-left:5px;vertical-align:middle;}
+
+#mainlist{width:100%;min-height:500px;}
+#mainlist ul{width:1210px;}
+#mainlist ul li{width:285px;height:370px;border:1px solid #ccc;float:left;margin-right:20px;margin-bottom:10px;background: white;}
+#mainlist ul li:nth-child(4n){margin-right:0px;}
+#mainlist ul li:hover{border:4px solid orange;}
+#mainlist ul li img{width:232px;height:232px;margin-left:24px;margin-top:24px;}
+#mainlist ul li .title{width:232px;height:32px;line-height:17px;text-align:center;font-size:14px;}
+#mainlist ul li h3{float:left;width:185px;height:35px;font-size:27px;color:orange;padding-left:50px;}
+#mainlist ul li h4{float:left;width:50px;height:35px;font-size:12px;line-height:35px;text-align:center;text-decoration:line-through;}
+#mainlist ul li button{margin-left:44px;}
+
+#mainlist #page{width:1200px;height:65px;background: #ccc;}
+#mainlist #page p{float:left;width:150px;height:65px;font-size:13px;text-align:center;line-height:65px;background: #ccc;}
+#mainlist #page .pagenum{padding-top:16px;}
+#mainlist #page .pagenum span{display:inline-block;margin:5px;width:40px;line-height:1.8;text-align: center;
+    background-color:#dfdfdf;color:#666;
+    font-size:12px;cursor:pointer;}
+#mainlist #page .pagenum span.active{background-color:#fc0;color:#fff;}
+
+.clone-img{position:absolute;z-index:44;}

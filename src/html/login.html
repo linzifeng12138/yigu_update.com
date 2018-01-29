@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>登录界面</title>
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/login.css" />
+
+    <script src="../lib/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+</head>
+<body>
+    <div id="loginbox">
+        <h1 class="logo"></h1>
+        <div class="title">
+            <h2>登录</h2>
+            <h3>还没有账号？<a href="../html/register.html">注册</a></h3>
+        </div>
+
+        <input class="username" type="text" placeholder="手机号/用户名"/>
+       
+        <input class="pass1" type="password" placeholder="请输入密码"/>
+
+        <span class="text">验证码</span>
+
+        <input class="checkreal" type="text" placeholder="请输入验证码"/>
+
+        <span class="checkcode">验证码生成区域</span>
+
+        <div class="rememberbox">
+             <input class="remember" type="checkbox" />
+             <span>记住我</span>
+             <a href="#" class="forget">忘记密码？</a>
+        </div>
+       
+
+        <div class="finish">
+            完成
+        </div>
+    </div>
+
+     <script src="../js/require.js" data-main="../js/login"></script>
+</body>
+</html>

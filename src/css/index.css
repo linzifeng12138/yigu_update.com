@@ -1,0 +1,217 @@
+#banner{width:100%;height:480px;}
+
+#fastmenu{width:100%;height:328px;margin-top: 35px;background: white;}
+#fastmenu a{display:inline-block;width:289px;height:328px;margin-right:12px;}
+#fastmenu a:nth-child(1){background: url("../img/fast1.jpg") no-repeat;}
+#fastmenu a:nth-child(2){background: url("../img/fast2.jpg") no-repeat;}
+#fastmenu a:nth-child(3){background: url("../img/fast3.jpg") no-repeat;}
+#fastmenu a:nth-child(4){background: url("../img/fast4.jpg") no-repeat;margin-right:0px;}
+
+
+#hotdog {width:100%;height:479px;background: white;margin-bottom:15px;}
+#hotdog .hotlist{width:699px;height:479px;}
+#hotdog .hotlist li{position:relative;width:699px;height:228px;margin-bottom:11px;
+	padding-left:40px;background: rgb(249,248,227);}
+#hotdog .hotlist li h2{width:100px;height:37px;background: rgb(162,210,46);
+color:white;font-size: 15px;font-weight:bold;line-height:37px;text-align:center;}
+#hotdog .hotlist li h3{font-size:22px;line-height:40px;}
+#hotdog .hotlist li h4{width:269px;font-size: 16px;line-height:22px;color:orange;}
+#hotdog .hotlist li img{position: absolute;right:0px;top:0px;height:228px;width:389px;}
+#hotdog .hotlist li .label{position:absolute;left:40px;top:130px;width: 50px;height:45px;
+	background:rgb(162,210,46);font-size:17px;
+	line-height:45px;text-align:center; 
+	color:white;border-radius:5px; }
+#hotdog .hotlist li .ourprice{
+	position:absolute;left:100px;top:125px;
+	font-size:17px;color:orange;}
+#hotdog .hotlist li .ourprice i{font-size: 39px;}
+#hotdog .hotlist li .discount{
+	position:absolute;left:200px;top:125px;width: 95px;
+	height:20px;background: orange;color:white;
+	text-align: center;line-height:20px;
+	font-size:14px;font-weight:bold;border-radius: 10px;}
+#hotdog .hotlist li .listprice{position:absolute;left:200px;top:150px;text-decoration:line-through;}
+#hotdog .showbox{width:500px;height:479px;}
+#hotdog .showbox h2{width:500px;height:68px;
+	background: rgb(161,210,43);text-align:center;
+	line-height:68px;font-size:30px;color:white;
+	margin-bottom:8px;}
+#hotdog .showbox .biggood{
+	float:left;width:390px;height:400px;background: white;}
+#hotdog .showbox .biggood li{position:relative;}
+#hotdog .showbox .biggood li img{
+	position:absolute;left:0px;top:0px;
+	width:390px;height:400px;}
+#hotdog .showbox .smallList{
+	float:right;width:100px;height:400px;padding-top:11px;}
+#hotdog .showbox .smallList li{position:relative;float:right;width:88px;height:88px;margin-bottom:8px;font-size:12px;}
+#hotdog .showbox .smallList li:hover{border:3px solid orange;}
+#hotdog .showbox .smallList li img{
+	position:absolute;left:0px;top:0px;
+	width:82px;height:82px;}
+
+
+.ads{margin-bottom:11px;width:100%;height:150px;background: white;}
+.ads img{width:1208px;height:150px;}
+
+
+#fruit{width:100%;height:535px;background: white;}
+#fruit .style1_leftbox{width:366px;height:535px;border:1px solid #ccc;}
+#fruit .style1_leftbox h2{width:364px;height:88px;background: rgb(248,196,25);line-height:88px;text-align:center;
+font-size:17px;color:white;}
+#fruit .style1_leftbox img{width:364px;height:445px;}
+#fruit .style1_rightbox{width:842px;height:267px;}
+#fruit .style1_rightbox>a img{width:414px;height:267px;border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;border-top:1px solid #ccc;}
+#fruit .style1_rightbox ul li{position:relative;float:left;width:214px;height:267px;
+	border-right:1px solid #ccc;border-bottom:1px solid #ccc;border-top:1px solid #ccc;}
+#fruit .style1_rightbox ul li img{margin-left:13px;width:190px;height:180px;cursor:pointer;}
+#fruit .style1_rightbox ul li .intro{margin-bottom:14px;width:214px;height:25px;display:block;
+text-align:center;line-height:25px;font-size:13px;}
+#fruit .style1_rightbox ul li .ourprice{margin-left:8px;font-size:23px;color:orange;}
+#fruit .style1_rightbox ul li .listprice{margin-right:14px;margin-top:4px;font-size:17px;text-decoration:line-through;}
+#fruit .style1_rightbox ul li .addcar{display:none;width:213px;height:50px;background: orange;position:absolute;left:0px;bottom:0px;opacity:0.7;
+line-height:50px;text-align:center;color:white;}
+
+
+.ads2{margin-bottom:11px;margin-top:11px;
+	width:100%;height:200px;background: white;}
+.ads2 img{width:1208px;height:200px;}
+
+
+#eggs{width:100%;height:535px;background: white;}
+#eggs .style2_leftbox{width:366px;height:535px;border:1px solid #ccc;}
+#eggs .style2_leftbox h2{width:364px;height:88px;background: rgb(255,102,0);line-height:88px;text-align:center;
+font-size:17px;color:white;}
+#eggs .style2_leftbox img{width:364px;height:445px;}
+#eggs .style2_midbox{width:609px;height:535px;
+	border-bottom:1px solid #ccc;}
+#eggs .style2_midbox li{position:relative;float:left;
+	width:202.5px;height:267px;
+	border-right:1px solid #ccc;
+	border-top:1px solid #ccc;}
+#eggs .style2_midbox li img{cursor:pointer;margin-left:10px;
+	width:180px;height:170px;}
+#eggs .style2_midbox li .intro{width:198px;height:25px;
+	display:block;text-align:center;
+	line-height:16px;font-size:13px;}
+#eggs .style2_midbox li .ourprice{margin-left:8px;margin-top:22px;
+	font-size:23px;color:orange;}
+#eggs .style2_midbox li .listprice{margin-right:14px;margin-top:24px;
+	font-size:17px;text-decoration:line-through;}
+#eggs .style2_midbox li .addcar{display:none;
+	width:202.5px;height:50px;background: orange;
+	position:absolute;left:0px;bottom:0px;opacity:0.7;
+	line-height:50px;text-align:center;color:white;}
+#eggs .style2_rightbox{width:235px;height:535px;}
+#eggs .style2_rightbox a img{width:237px;height:178px;
+	border-right:1px solid #ccc;border-bottom:1px solid #ccc;
+	border-top:1px solid #ccc;}
+
+
+#rice{width:100%;height:535px;background: white;}
+#rice .style2_leftbox{width:366px;height:535px;border:1px solid #ccc;}
+#rice .style2_leftbox h2{width:364px;height:88px;background: red;line-height:88px;text-align:center;
+font-size:17px;color:white;}
+#rice .style2_leftbox img{width:364px;height:445px;}
+#rice .style2_midbox{width:609px;height:535px;
+	border-bottom:1px solid #ccc;}
+#rice .style2_midbox li{position:relative;float:left;
+	width:202.5px;height:267px;
+	border-right:1px solid #ccc;
+	border-top:1px solid #ccc;}
+#rice .style2_midbox li img{cursor:pointer;margin-left:10px;
+	width:180px;height:170px;}
+#rice .style2_midbox li .intro{width:198px;height:25px;
+	display:block;text-align:center;
+	line-height:16px;font-size:13px;}
+#rice .style2_midbox li .ourprice{margin-left:8px;margin-top:22px;
+	font-size:23px;color:orange;}
+#rice .style2_midbox li .listprice{margin-right:14px;margin-top:24px;
+	font-size:17px;text-decoration:line-through;}
+#rice .style2_midbox li .addcar{display:none;
+	width:202.5px;height:50px;background: orange;
+	position:absolute;left:0px;bottom:0px;opacity:0.7;
+	line-height:50px;text-align:center;color:white;}
+#rice .style2_rightbox{width:235px;height:535px;}
+#rice .style2_rightbox a img{width:237px;height:178px;
+	border-right:1px solid #ccc;border-bottom:1px solid #ccc;
+	border-top:1px solid #ccc;}
+
+
+#topic{width:100%;height:535px;background: white;}
+#topic .style1_leftbox{width:366px;height:535px;border:1px solid #ccc;}
+#topic .style1_leftbox h2{width:364px;height:88px;
+	background: rgb(27,188,155);line-height:88px;
+	text-align:center;font-size:17px;color:white;}
+#topic .style1_leftbox img{width:364px;height:445px;}
+#topic .style1_rightbox{width:842px;height:267px;}
+#topic .style1_rightbox>a img{width:414px;height:267px;border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;border-top:1px solid #ccc;}
+#topic .style1_rightbox ul li{position:relative;float:left;width:214px;height:267px;
+	border-right:1px solid #ccc;border-bottom:1px solid #ccc;border-top:1px solid #ccc;}
+#topic .style1_rightbox ul li img{cursor:pointer;margin-left:13px;width:190px;height:180px;}
+#topic .style1_rightbox ul li .intro{
+	margin-bottom:14px;width:214px;height:25px;display:block;
+	text-align:center;line-height:18px;font-size:13px;}
+#topic .style1_rightbox ul li .ourprice{margin-left:8px;font-size:23px;color:orange;}
+#topic .style1_rightbox ul li .listprice{margin-right:14px;margin-top:4px;font-size:17px;text-decoration:line-through;}
+#topic .style1_rightbox ul li .addcar{
+	display:none;width:213px;height:50px;
+	background: orange;position:absolute;left:0px;bottom:0px;
+	opacity:0.7;line-height:50px;text-align:center;color:white;}
+
+
+
+#box{width:100%;height:535px;background: white;margin-top:13px;margin-bottom:14px;}
+#box .style2_leftbox{width:366px;height:535px;border:1px solid #ccc;}
+#box .style2_leftbox h2{width:364px;height:88px;background: lightgreen;line-height:88px;text-align:center;
+font-size:17px;color:white;}
+#box .style2_leftbox img{width:364px;height:445px;}
+#box .style2_midbox{width:609px;height:535px;
+	border-bottom:1px solid #ccc;}
+#box .style2_midbox li{position:relative;float:left;
+	width:202.5px;height:267px;
+	border-right:1px solid #ccc;
+	border-top:1px solid #ccc;}
+#box .style2_midbox li img{cursor:pointer;margin-left:10px;
+	width:180px;height:170px;}
+#box .style2_midbox li .intro{width:198px;height:25px;
+	display:block;text-align:center;
+	line-height:16px;font-size:13px;}
+#box .style2_midbox li .ourprice{margin-left:8px;margin-top:22px;
+	font-size:23px;color:orange;}
+#box .style2_midbox li .listprice{margin-right:14px;margin-top:24px;
+	font-size:17px;text-decoration:line-through;}
+#box .style2_midbox li .addcar{display:none;
+	width:202.5px;height:50px;background: orange;
+	position:absolute;left:0px;bottom:0px;opacity:0.7;
+	line-height:50px;text-align:center;color:white;}
+#box .style2_rightbox{width:235px;height:535px;}
+#box .style2_rightbox a img{width:237px;height:178px;
+	border-right:1px solid #ccc;border-bottom:1px solid #ccc;
+	border-top:1px solid #ccc;}
+
+
+#life{width:100%;height:535px;background: white;}
+#life .style1_leftbox{width:366px;height:535px;border:1px solid #ccc;}
+#life .style1_leftbox h2{width:364px;height:88px;
+	background: rgb(255,99,103);line-height:88px;
+	text-align:center;font-size:17px;color:white;}
+#life .style1_leftbox img{width:364px;height:445px;}
+#life .style1_rightbox{width:842px;height:267px;border-top:1px solid #ccc;}
+#life .style1_rightbox>a img{width:414px;height:267px;
+	border-right:1px solid #ccc;border-bottom:1px solid #ccc;
+	border-top:1px solid #ccc;}
+#life .style1_rightbox ul li{position:relative;float:left;width:214px;height:267px;
+	border-right:1px solid #ccc;border-bottom:1px solid #ccc;border-top:1px solid #ccc;}
+#life .style1_rightbox ul li img{cursor:pointer;margin-left:13px;width:190px;height:180px;}
+#life .style1_rightbox ul li .intro{
+	margin-bottom:14px;width:214px;height:25px;display:block;
+	text-align:center;line-height:18px;font-size:13px;}
+#life .style1_rightbox ul li .ourprice{margin-left:8px;font-size:23px;color:orange;}
+#life .style1_rightbox ul li .listprice{margin-right:14px;margin-top:4px;font-size:17px;text-decoration:line-through;}
+#life .style1_rightbox ul li .addcar{
+	display:none;width:213px;height:50px;
+	background: orange;position:absolute;left:0px;bottom:0px;
+	opacity:0.7;line-height:50px;text-align:center;color:white;}

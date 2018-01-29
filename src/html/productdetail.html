@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>商品详情页</title>
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/detail.css" />
+
+   
+    <link rel="stylesheet" type="text/css" href="../lib/jquery-lzfzoom/jquery-lzfzoom.css" />
+    <script src="../lib/jquery-3.2.1.js"></script>
+    
+    <script type="text/javascript" src="../js/productdetail.js"></script>
+    <script src="../lib/jquery-lzfzoom/jquery-lzfzoom.js"></script>
+</head>
+
+<body>
+          <div id="login">
+              <div class="container">
+                  <div class="boxleft">
+                       <h2>欢迎来到依谷网!</h2>
+                       <a href="#">收藏依谷网</a>
+                  </div>
+                  <ul class="boxright">
+                      <li><a href="#">登录</a></li>
+                      <li><a href="#">免费注册</a></li>
+                      <li><a href="#">购物车</a></li>
+                      <li><a href="#">关注依谷网</a></li>
+                  </ul>       
+              </div>
+          </div>
+
+          <div id="asider">
+              <div class="functionlist">
+                  <div class="shopcart">
+                      <i></i>
+                      <h3 class="shiftbtn">购物车</h3> 
+                      <span class="goodsqty">22</span>
+                  </div>
+              </div>
+
+              <div class="contentlist">
+                  <h3>购物车</h3>
+                  <div class="smallcart">
+                      <!-- <ul>调取cookie数据生成</ul> -->
+                  </div>
+                  
+                  <h4 class="shopcount">共
+                        <span class="cartQty">12</span>件
+                        <span class="heji">合计：￥
+                            <span class="cartTotalCost">3456.33</span>
+                        </span>
+                  </h4>
+                  <a href="shoppingcar.html" class="checkout">结算</a>
+              </div>
+          
+          </div>
+         
+
+          <div id="nav" class="nav">
+                <div class="container">
+                    <h1 class="fl"></h1>
+                    <div class="searchbox fl">
+                         <input placeholder="请输入商品名称" type="text" name="search">
+                         <span id="navbtn">搜索</span>
+                    </div>
+                    <div class="paycar fr">
+                        <span class="car fl"></span>
+                        <a class="pay" href="shoppingcar.html">立即去结算</a>
+                        <i id="goodsnumber">0</i>
+                    </div>
+                </div>  
+          </div>
+
+          <div id="showlist" class="fl">
+                <h3>全部商品分类</h3>
+                <ul class="tabmain">
+                    <li>
+                        <i></i>
+                        <a href="#">水果蔬菜</a>
+                        <div class="tablist">   
+                        </div>
+                    </li>
+                    <li>
+                        <i></i><a href="#">肉禽蛋奶</a>
+                        <div class="tablist">   
+                        </div>
+                    </li>
+                    <li>
+                        <i></i><a href="#">粮油副食</a>
+                        <div class="tablist">   
+                        </div>
+                    </li>
+                    <li>
+                        <i></i><a href="#">零食酒饮</a>
+                        <div class="tablist">   
+                        </div>
+                    </li>
+                    <li>
+                        <i></i><a href="#">主题场景</a>
+                        <div class="tablist">   
+                        </div>
+                    </li>
+                    <li>
+                        <i></i><a href="#">这箱有礼</a>
+                        <div class="tablist">   
+                        </div>
+                    </li>
+                    <li>
+                        <i></i><a href="#">生活用品</a>
+                        <div class="tablist">   
+                        </div>
+                    </li>
+                </ul>
+          </div>   
+
+          <div id="showlist2">
+              <div class="container">
+                   <ul class="fl">  
+                      <li>
+                          <a href="http://localhost:2018/index.html">
+                          首页
+                          </a>
+                      </li>
+                      <li><a href="">礼品卡券</a></li>
+                      <li><a href="">安心宅配</a></li>
+                      <li><a href="">特色预定</a></li>
+                      <li><a href="">企业定制</a></li>
+                      <li><a href="">活动专区</a></li>
+                      <li><a href="">食尚资讯</a></li>
+                  </ul>
+              </div>     
+          </div>  
+
+          <div id="path">
+                <div class="container">
+                      <a href="#">新鲜水果</a>
+                      <span>&gt</span>
+                      <a href="#">水果</a>
+                      <span>&gt</span>
+                      <a href="#">国产水果</a>
+                      <span>&gt</span>
+                      <a href="#">其他水果</a>
+                </div>
+          </div>  
+
+          <div id="detail">
+                <div class="container">
+                    <div class="picbox fl">
+                        <ul class="biglist fl">
+                            <li class="good1" data-guid = "3">
+                                <img src="" data-big="" class="targetpic">
+                            </li>             
+                        </ul>    
+                        <ul class="smallList fl">
+                            <li  data-guid = "4">       
+                                <img src="" data-big="" class="targetpic">
+                            </li>
+                            <li  data-guid = "5">
+                                <img src="../img/guo4.jpg" data-big="" class="other1">
+                            </li>
+                            <li data-guid = "6">
+                               <img src="../img/eggs.jpg" data-big="" class="other1">
+                            </li>
+                            <li data-guid = "7">  
+                               <img src="../img/fish.jpg" data-big="" class="other1">
+                            </li>       
+                        </ul>     
+                    </div>
+
+                    <div class="textbox fl">
+                        <h3 class="title">数据传递</h3>
+                        <h4 class="comment">数据传递</h4>
+                        <div class="price">
+                              <p class="p1">市场价：<span>￥</span><span class="listprice">数据传递</span></p>
+                              <p class="p2">商城价：<span>￥</span><span class="ourprice">数据传递</span></p>
+                        </div>
+                        <h5 class="sell">月销量<span>233</span>件</h5>
+                        <div class="wuliu">
+                            <p><span class="label">配送</span>16:00 前完成订单,预计明日(<span class="gettime">01-05</span>)送达,生鲜商品仅限深圳!</p>
+                            <p><span class="label">运费</span>深圳市内每单物流费8元起，满199元免物流!</p>
+                            <p><span class="label">提示</span>产品图片及描述内容仅做参考,请您以收到的商品实物为准！谢谢</p>
+                        </div>
+                        <div class="location">
+                            <span>配送至：</span>
+                            <span class="place">深圳市以内</span>
+                        </div>
+                        <div class="size">
+                            <span>规格：</span>
+                            <span class="size1">1kg</span>
+                            <span class="size2">2.34kg</span>
+                        </div>
+                        <div class="amount">
+                            <span>数量：</span>
+                            <input type="number" id="qty" min='1' value='1'/>
+                            <!-- <input type="text" value="1"/>
+                            <span class="plus">+</span>
+                            <span class="minus">-</span> -->
+                        </div>
+                        <div class="button">
+                            <span class="buynow"><a href="shoppingcar.html">立即购买</a></span>
+                            <span class="addtocar">加入购物车</span>
+                        </div>
+
+                    </div>
+                    
+                    <div class="smallshow">
+                      
+                    </div>
+                </div>            
+          </div>
+          
+          <div id="footer"></div>
+
+</body>
+</html>

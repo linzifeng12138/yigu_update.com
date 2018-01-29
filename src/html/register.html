@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>注册页面</title>
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/register.css" />  
+   
+</head>
+<body>
+    <div id="registerbox">
+        <h1 class="logo"></h1>
+        <div class="title">
+            <h2>注册</h2>
+            <h3>已有账号<a href="../html/login.html">登录</a></h3>
+        </div>
+        <input class="username" type="text" placeholder="请输入你的用户名"/>
+        <input class="checkreal" type="text" placeholder="请输入短信验证码"/>
+        <span class="checkcode">发送验证码</span>
+        <input class="pass1" type="password" placeholder="请输入密码"/>
+        <input class="pass2" type="password" placeholder="请确认密码"/>
+        <div class="agreebox">
+            <input id="agree" type="checkbox" /><span>同意<a href="#">依谷网服务协议</a></span>
+        </div>
+        <div class="finish" id="btnreg" style="display:none;">
+            提交我的注册申请
+        </div>
+    </div>
+    <!-- 模块化开发第一步：引入require.js，固定写法和位置 与config.js合作-->
+    <script src="../js/require.js" data-main="../js/register"></script>
+    <!-- <script type="text/javascript" src="../js/common.js"></script> -->
+</body>
+</html>
