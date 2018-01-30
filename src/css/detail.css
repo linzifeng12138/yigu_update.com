@@ -61,3 +61,5 @@ box-shadow:0 0 3px #ccc;}
 #detail .textbox .button{width:500px;height:70px;padding-left:10px;padding-top:15px;}
 #detail .textbox .button span{display:inline-block;width:175px;height:42px;border:1px solid orange;text-align:center;line-height:42px;font-size:14px;margin-right:15px;border-radius:4px;color:orange;background: rgb(254,242,232);cursor:pointer;}
 #detail .textbox .button .addtocar{background: rgb(253,116,0);color:white;}
+
+.onclick{background: rgb(253,116,0);}
