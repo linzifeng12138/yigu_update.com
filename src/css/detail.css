@@ -17,19 +17,21 @@
 #path a:hover{color:lightgreen;}
 
 #detail{width:100%;height:625px;}
-#detail .picbox{width:487px;height:625px;}
+#detail .picbox{width:487px;height:625px;position:relative;overflow:hidden;}
 #detail .picbox .biglist{width:487px;height:487px;background: white;
 box-shadow:0 0 3px #ccc;}
 #detail .picbox .biglist .targetpic{width:487px;height:487px;}
 
 
-#detail .picbox .smallList{width:487px;height:106px;background: white;
-box-shadow:0 0 3px #ccc;}
-#detail .picbox .smallList .targetpic{width:105px;height:105px;float:left;box-shadow:0 0 3px #ccc;}
-#detail .picbox .smallList .other1{width:105px;height:105px;float:left;
-box-shadow:0 0 3px #ccc;}
-/*#detail .picbox .smallList .other2{border:1px dashed #ccc;width:105px;height:105px;float:left;}
-#detail .picbox .smallList .other3{border:1px dashed #ccc;width:105px;height:105px;float:left;}*/
+#detail .focus{overflow:hidden;width:486px;height:107px;z-index:33;}
+#detail .picbox .smallList{width:3000px;height:100px;background: white;position:absolute;left:0px;top:490px;}
+#detail .picbox .smallList li{float:left;width:105px;height:102px;}
+#detail .picbox .smallList img{width:103px;height:100px;float:left;}
+
+#detail .picbox .prev1, #detail .picbox .next1{position:absolute;display:inline-block;width:30px;height:30px;text-align:center;line-height:30px;z-index:22;cursor:pointer;}
+#detail .picbox .prev1{left:0px;top:520px;}
+#detail .picbox .next1{left:460px;top:520px;}
+.border{border:1px solid orange;width:230px;}
 
 #detail .textbox{padding-left:30px;width:564px;height:625px;}
 #detail .textbox .title{width:564px;height:30px;font-size:18px;line-height:30px;}

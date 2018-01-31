@@ -1,5 +1,0 @@
-/node_modules/
-doc/
-*.zip
-*.rar
-*.7z

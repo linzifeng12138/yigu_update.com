@@ -123,9 +123,10 @@ document.addEventListener('DOMContentLoaded',function(){
         $('#detail .smallList img').on('mouseenter',function(){
             $('#detail .biglist img').attr({
                 'src':this.src,
-                'data-big':$(this).attr('data-big') || this.src
+                'data-big':$(this).attr('data-big') || this.src,
             });
         }); 
+
 
         
         // 三。购物车
@@ -215,6 +216,56 @@ document.addEventListener('DOMContentLoaded',function(){
                     $("#nav").removeClass("nav_top");
                 },16);
             }
+        });
+
+        // 六、左右切换小图功能
+        var container = document.querySelector('#detail .container');
+        console.log(container);
+        var prev1 = document.querySelector('#detail .prev1');
+        console.log(prev1);
+        var next1 = document.querySelector('#detail .next1');
+        console.log(next1);
+       
+        var focus = document.querySelector('#detail .focus');
+        console.log(focus);
+        var ullist = document.querySelector('#detail .smallList');
+        console.log(ullist);
+        var length = ullist.children.length;
+        console.log(length);//6
+        var index = 0;
+        var showWidth = focus.offsetWidth;
+        console.log(showWidth);
+        function display(){
+            if(index > Math.ceil(length/4)-1){
+                index = Math.ceil(length/4)-1;
+            }else if(index < 0){
+                index = 0;
+            }
+            let target = -index*showWidth;
+            animate(ullist,{left:target});
+        }
+        //事件委托,点击左右方向标切换产品列表
+        container.onclick = function(e){
+            e = e || window.event;
+            var target = e.target || e.srcElement;
+            if(target.className.toLowerCase()==="prev1"){
+                // console.log(666);
+                 index--;
+                 display();
+            }else if(target.className.toLowerCase()==="next1"){
+                  // console.log(666);
+                 index++;
+                 display();
+            }
+        }
+        // 补充功能：实现鼠标上移小图片添加高亮样式
+        // 2-2-1:默认第一张高亮
+        $('#detail .smallList').find('li.targetli').addClass('border');
+        // 2-2-2:鼠标上移才会高亮
+        $('#detail .smallList').on('mouseenter','li',function(){
+                console.log(this);
+                console.log($(this));
+                $(this).addClass('border').siblings().removeClass('border');
         });
     });   
 })
