@@ -1,12 +1,45 @@
-/**
- * [得到某个范围内的随机数]
- * @param  {Number} min [最小值]
- * @param  {Number} max [最大值]
- * @return {Number}     [返回值]
- */
-function randomNumber(min,max){
-	return parseInt(Math.random()*(max-min+1)) + min;//0:得到一个最小数min,1:得到一个最大值max
-}
+// //模块化封装common.js的常用方法，面向对象
+// define(['jquery'],function(){
+//     //返回一个函数或对象
+//     return {
+//         /**
+//          * [1/得到某个范围内的随机数]
+//          * @param  {Number} min [最小值]
+//          * @param  {Number} max [最大值]
+//          * @return {Number}     [返回值]
+//          */
+//         randomNumber: function(min,max){
+//             return parseInt(Math.random()*(max-min+1)) + min;//0:得到一个最小数min,1:得到一个最大值max
+//         },
+
+//         /**
+//          * [2/得到一个随机颜色]
+//          * @return {String} [返回rgb格式颜色]
+//          */
+//         randomColor(){
+//             var str = '0123456789abcdef';
+//             var res = '#';
+//             for(var i=0;i<6;i++){
+//                 res += str[this.randomNumber(0,str.length-1)]
+//             }
+//             return res;
+//         },
+//         /**
+//          * [3/生成4位随机数字验证码]
+//          * @return {String} [返回随机4位数字的字符串]
+//          */
+//         vCode(){
+//             var res = '';
+//             for(var i=0;i<4;i++){
+//                 res += parseInt(Math.random()*10);
+//             }
+//             return res;
+//         }
+//     }
+// });
+
+
+
 
 // 如果封装没有思路，先使用
 // randomNumber(10,20);//得到一个随机整数
@@ -29,8 +62,29 @@ function randomColor(){
 	return 'rgb('+ r +','+ g +','+ b +')';
 }
 // randomColor();//得到一个随机颜色'rgb(255,0,0)'
-// 
-// 
+
+/**
+ * [生成4位随机数字验证码]
+ * @return {String} [返回随机4位数字的字符串]
+ */
+function vCode(){
+    var res = '';
+    for(var i=0;i<4;i++){
+        res += parseInt(Math.random()*10);//'' + 8=>'8'+6=>'86'+5=>'865'+0=>'8650'
+    }
+
+    return res;
+}
+/**
+ * [数据类型判断]
+ * @param  {All} data [数据类型]
+ * @return {String}      [返回数据类型字符串]
+ */
+function type(data){
+    return Object.prototype.toString.call(data).slice(8,-1).toLowerCase();
+}
+
+
 /**
  * [动画效果，多属性改变，支持回调函数]
  * @param  {element}  ele      [元素节点，目标元素]
