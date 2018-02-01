@@ -4,7 +4,15 @@
     <meta charset="UTF-8" />
     <title>注册页面</title>
     <link rel="stylesheet" type="text/css" href="../css/base.css" />
-    <link rel="stylesheet" type="text/css" href="../css/register.css" />  
+    <link rel="stylesheet" type="text/css" href="../css/register.css" />
+    <!-- <script type="text/javascript" src="../lib/jquery.1.9.1.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+    <script type="text/javascript" src="../js/register.js"></script>  -->
+
+
+    <!-- 为了解决js文件的相互依赖问题和实现js文件的异步加载性能优化，需使用以下的模块化开发工具 -->
+    <!-- 模块化开发第一步：引入require.js，固定写法和位置 与config.js合作-->
+    <script src="../js/require.js" data-main="../js/register"></script>
    
 </head>
 <body>
@@ -26,8 +34,6 @@
             提交我的注册申请
         </div>
     </div>
-    <!-- 模块化开发第一步：引入require.js，固定写法和位置 与config.js合作-->
-    <script src="../js/require.js" data-main="../js/register"></script>
-    <!-- <script type="text/javascript" src="../js/common.js"></script> -->
+    
 </body>
 </html>
